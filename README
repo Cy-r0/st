@@ -6,6 +6,9 @@ st is a simple terminal emulator for X which sucks less.
 Requirements
 ------------
 In order to build st you need the Xlib header files.
+For my particular version, you also need the Sauce Code Pro font,
+which can be found in ./saucecodepro/.
+Install it by copying the directory in ~/.local/share/fonts.
 
 
 Installation
