@@ -172,12 +172,26 @@ static unsigned int defaultrcs = 256;
  */
 static unsigned int cursorstyle = 1;
 static Rune stcursor = 0x2603; /* snowman ("â˜ƒ") */
+
+/*
+ * Whether to use pixel geometry or cell geometry
+ */
+
+static Geometry geometry = PixelGeometry;
+
 /*
  * Default columns and rows numbers
  */
 
 static unsigned int cols = 80;
 static unsigned int rows = 24;
+
+/*
+ * Default width and height (including borders!)
+ */
+
+static unsigned int width = 564;
+static unsigned int height = 364;
 
 /*
  * Default colour and shape of the mouse cursor
