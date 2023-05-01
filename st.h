@@ -101,6 +101,8 @@ void tnew(int, int);
 int tisaltscreen(void);
 void tresize(int, int);
 void tsetdirtattr(int);
+void tupdatebgcolor(int, int);
+void tupdatefgcolor(int, int);
 void ttyhangup(void);
 int ttynew(const char *, char *, const char *, char **);
 size_t ttyread(void);
