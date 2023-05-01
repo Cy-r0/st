@@ -6,8 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  * NOTE: SauceCodePro Nerd Font needs to be installed manually
  */
-static char *font = "SauceCodePro Nerd Font:pixelsize=18:antialias=true:autohint=true";
-static int borderpx = 4;
+static char *font = "SauceCodePro Nerd Font:pixelsize=19:antialias=true:autohint=true";
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -28,7 +28,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.05;
+static float chscale = 1.0;
 
 /*
  * word delimiter string
