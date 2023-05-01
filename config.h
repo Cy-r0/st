@@ -145,8 +145,7 @@ static const char *colorname[] = {
 
 	/* more colors can be added after 255 to use with DefaultXX */
         /* terminal background */
-	/* "#282828", */
-	"#280000",
+	"#282828",
 };
 
 /*
