@@ -7,7 +7,7 @@
  * NOTE: SauceCodePro Nerd Font needs to be installed manually
  */
 static char *font = "SauceCodePro Nerd Font:pixelsize=19:antialias=true:autohint=true";
-static int borderpx = 0;
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
