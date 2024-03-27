@@ -7,7 +7,7 @@ TLDR
 ----
 sudo apt install make gcc libx11-dev libxft-dev
 git clone git@github.com:Cy-r0/st
-cp ./saucecodepro ~/.local/share/fonts
+cp ./saucecodepro/ ~/.local/share/fonts
 sudo make install
 
 
