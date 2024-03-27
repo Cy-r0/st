@@ -3,6 +3,14 @@ st - simple terminal
 st is a simple terminal emulator for X which sucks less.
 
 
+TLDR
+----
+sudo apt install make gcc libx11-dev libxft-dev
+git clone git@github.com:Cy-r0/st
+cp ./saucecodepro ~/.local/share/fonts
+sudo make install
+
+
 Requirements
 ------------
 In order to build st you need the Xlib header files.
